@@ -51,9 +51,11 @@ const Login = () => {
 
   return (
     <>
-      <div className="container d-flex bgbg border border-dark my-5">
-        <div className="w-50 text-right"></div>
-        <div className="w-50 border-start border-dark p-0 m-0">
+      <div className="container d-flex my-5">
+        <div className="w-50 text-right">
+          <img src="login.jpg" className="login-image"></img>
+        </div>
+        <div className="w-50 border border-dark p-0 m-0">
           <div className="p-4 fs-1 text-center">Login</div>
           <form className="p-4">
             <div className="">
