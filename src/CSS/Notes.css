@@ -1,0 +1,29 @@
+.container {
+    background: linear-gradient(180deg, #f3f4f6 0%, #ffffff 100%);
+    padding: 20px;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .input {
+    border-radius: 8px;
+  }
+  
+  .btn {
+    border-radius: 8px;
+  }
+  
+  .icon-container {
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  /* Optional: You can add hover effects */
+  .icon-container:hover {
+    opacity: 0.8; /* Optional: Change opacity on hover */
+  }
